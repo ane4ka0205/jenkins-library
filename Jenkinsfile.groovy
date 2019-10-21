@@ -2,4 +2,3 @@
 @Library('jenkins-library@master') _
 
 
-evenOrOdd(currentBuild.getNumber())
