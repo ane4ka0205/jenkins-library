@@ -1,5 +1,6 @@
 package com.example
 
+def runPipeline() {
 
 def branchName = "master"
 
@@ -9,7 +10,8 @@ def branchName = "master"
         stage('Hello') {
           steps {
             echo "Hello world"
-                }
-            }
         }
+      }
     }
+  }
+}
