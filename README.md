@@ -1,5 +1,3 @@
-#!/usr/bin/env groovy
+/////#!/usr/bin/env groovy
 //example
 @Library('jenkins-library@master') _
-
-
