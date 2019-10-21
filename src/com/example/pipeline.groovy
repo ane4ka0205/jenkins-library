@@ -15,3 +15,4 @@ def branchName = "master"
     }
   }
 }
+return this
