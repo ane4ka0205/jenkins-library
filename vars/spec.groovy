@@ -1,25 +1,17 @@
-def call(int buildNumber) {
-  if (buildNumber % 2 == 0) {
+def call(str hello) {
+
+
+
     pipeline {
       agent any
       stages {
-        stage('Even Stage') {
+        stage('Hello') {
           steps {
-            echo "The build number is even"
-          }
+            echo "Hello world"
+                }
+            }
         }
-      }
     }
-  } else {
-    pipeline {
-      agent any
-      stages {
-        stage('Odd Stage') {
-          steps {
-            echo "The build number is odd"
-          }
-        }
-      }
-    }
-  }
 }
+
+    
