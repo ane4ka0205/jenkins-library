@@ -1,8 +1,5 @@
 def call(str hello) {
-
-
-
-    
+  
 }
 
     
