@@ -3,7 +3,7 @@ def printHello() {
 }
 
 def printBye() {
-  sh 'eccho "Bye"'
+  sh 'echo "Bye"'
 }
 
 
