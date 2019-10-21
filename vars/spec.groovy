@@ -1,5 +1,5 @@
-def call(str hello) {
-  
+def call() {
+  includes.runPipeline()
 }
 
     
