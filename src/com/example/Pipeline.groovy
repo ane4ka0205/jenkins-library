@@ -1,7 +1,9 @@
 package com.example
 
-class shared {
-	def logHelloWorld() {
-		sh 'echo "hello world"'
-	}
+stage('Git Checkout') {
+    gitCheckout(
+        branch: "master",
+        url: "https://github.com/ane4ka0205/mybase-project.git"
+    )
 }
+
