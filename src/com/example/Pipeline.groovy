@@ -1,6 +1,6 @@
 package com.example
 
-import static com.example.buildUtils
+
 
 class buildUtils {
     static def timedGradleBuild(script,tasks) {
