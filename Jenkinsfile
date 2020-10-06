@@ -3,7 +3,9 @@
 @Library('shared-library@master')_
 
 pipeline{
-    agent master
+    agent {
+        master 
+    }
 
     stages{
         stage('maven build'){
